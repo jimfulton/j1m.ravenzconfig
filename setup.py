@@ -1,5 +1,5 @@
 name = 'j1m.ravenzconfig'
-version = '0'
+version = '0.1.0'
 
 install_requires = ['setuptools', 'raven', 'ZConfig']
 extras_require = dict(test=['manuel', 'mock', 'zope.testing'])
