@@ -4,7 +4,7 @@ Changes
 0.1.1 (unreleased)
 ==================
 
-- Nothing changed yet.
+- Fixed a packaging bug.
 
 
 0.1.0 (2017-06-12)
