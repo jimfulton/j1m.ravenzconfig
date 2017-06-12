@@ -2,7 +2,10 @@
 ZConfig logging support for raven
 =======================================================
 
-This package allows enabling raven via a ZConfig logging configuration like::
+This package allows enabling `raven
+<https://docs.sentry.io/clients/python/>`_, the Python interfacet to
+`Sentry <https://sentry.io>`_ via a `ZConfig logging configuration <http://zconfig.readthedocs.io/en/latest/using-logging.html>`_
+like::
 
   <logger>
     %import j1m.ravenzconfig
@@ -11,8 +14,8 @@ This package allows enabling raven via a ZConfig logging configuration like::
     </sentry>
   </logger>
 
-Additional options are supported in addition to options accepted by
-the raven client.  See the `raven client documentation
+Additional options are supported, including logging level and options
+accepted by the raven client.  See the `raven client documentation
 <https://docs.sentry.io/clients/python/advanced/>`_.
 
 Here's an example that uses all of the options::
