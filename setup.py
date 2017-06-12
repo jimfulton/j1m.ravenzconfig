@@ -31,6 +31,7 @@ setup(
     author = 'Jim Fulton',
     author_email = 'jim@jimfulton.info',
     license = 'MIT',
+    url="https://github.com/jimfulton/j1m.ravenzconfig",
 
     name = name, version = version,
     long_description = long_description,
